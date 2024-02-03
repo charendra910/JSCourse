@@ -7,4 +7,4 @@
 
 ((email) =>{
     console.log(`Your email id is ${email}!`)       //without named iife
-}) ("Harendra")
+}) ("harendra@gmail.com")

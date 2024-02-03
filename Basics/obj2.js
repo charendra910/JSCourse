@@ -97,6 +97,6 @@ console.log(instructor);
 
 [
     {},
-    {},                 //json format
+    {},                 //json format for the api 
     {}
 ]

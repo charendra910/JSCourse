@@ -95,3 +95,8 @@ console.log(instructor);
 //     "price": "free"
 // }
 
+[
+    {},
+    {},                 //json format for the api 
+    {}
+]

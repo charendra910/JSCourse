@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM and Functions</title>
+</head>
+<body style="background-color: rgb(37, 35, 35); color:white">
+    <ul class ="languages">
+        <li>Javascript</li>
+    </ul>
+</body>
+
+<script>
+   function newLan(lanName){
+    const list = document.createElement("li")
+    list.innerHTML=`${lanName}`
+    document.querySelector('.languages').appendChild(list);
+   }
+   newLan("Typescript")
+   newLan("Python")
+   newLan("Java")
+  
+</script>
+</html>
